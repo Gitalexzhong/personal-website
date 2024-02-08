@@ -13,8 +13,6 @@ export default function Home() {
   return (
     <div
       className="box-border flex relative flex-col shrink-0 self-stretch px-6 py-5 h-screen bg-center bg-no-repeat bg-cover bg-neutral-800 min-h-[100px] max-md:h-auto max-md:grow-0 max-sm:w-screen max-sm:h-screen max-sm:ml-[calc(50%_-_50vw)]"
-      // maxWidth={1200}
-      // lazyLoad={false}
     >
       <section className="box-border flex relative flex-col grow shrink-0 self-stretch px-6 py-5 mx-auto w-full h-screen bg-center bg-no-repeat bg-cover bg-neutral-800 max-w-[1200px] min-h-[100px] max-md:h-auto max-md:grow-0 max-sm:w-screen max-sm:h-screen max-sm:ml-[calc(50%_-_50vw)]">
         <div className="box-border flex relative flex-col shrink-0 self-stretch my-auto w-full max-w-[1440px] max-md:grow max-md:mt-12 max-md:h-auto max-sm:m-auto">
@@ -36,7 +34,6 @@ export default function Home() {
                 <div className="box-border flex relative flex-col shrink-0 self-stretch pb-8 mt-5 mb-0 w-auto h-auto max-sm:flex max-sm:flex-col max-sm:w-full max-sm:">
                   <button
                     className="box-border relative shrink-0 px-6 py-4 mt-5 mr-0 mb-8 text-center rounded border border-solid appearance-none cursor-pointer bg-black bg-opacity-0 text-[white] max-sm:self-stretch max-sm:w-auto"
-                    // openLinkInNewTab={false}
                   >
                     Lets talk
                   </button>
